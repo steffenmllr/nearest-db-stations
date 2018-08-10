@@ -7,6 +7,7 @@ const geokdbush = require('geokdbush');
 // maybe write id, lat, lng into json file on ci build
 const allStations = require('db-stations/full.json').map(s => ({
     id: s.id,
+    name: s.name,
     address: s.address,
     location: s.location
 }));
