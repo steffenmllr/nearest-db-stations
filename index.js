@@ -2,6 +2,9 @@ const distance = require('@turf/distance').default;
 const { point } = require('@turf/helpers');
 const kdbush = require('kdbush');
 const geokdbush = require('geokdbush');
+
+// @todo: either return all stations or just the id
+// maybe write id, lat, lng into json file on ci build
 const allStations = require('db-stations/full.json').map(s => ({
     id: s.id,
     address: s.address,
