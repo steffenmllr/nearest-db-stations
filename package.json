@@ -35,7 +35,8 @@
     "@turf/helpers": "^6.1.4",
     "db-stations": "v2",
     "geokdbush": "^1.1.0",
-    "kdbush": "^2.0.1"
+    "kdbush": "^2.0.1",
+    "performance-now": "^2.1.0"
   },
   "devDependencies": {
     "tap-spec": "^5.0.0",
