@@ -18,7 +18,7 @@ test('nearest-db-station', function (t) {
     });
 
     t.test('nearest stations in Postdamer Platz', function(t) {
-        t.plan(2);
+        t.plan(3);
 
         console.time("benchmark");
         const latitude = 52.509647;
@@ -26,7 +26,8 @@ test('nearest-db-station', function (t) {
         const stations = nearestStations(latitude, longitude);
         console.timeEnd("benchmark");
 
-        t.equal('8089032', stations[0].id, 'Potsdamer Platz should be the first item');
+        t.equal('8089032', stations[0].id, 'Potsdamer Platz (ID) should be the first item');
+        t.equal('Berlin Potsdamer Platz', stations[0].name, 'Potsdamer Platz (NAME) should be the first item');
         t.equal(30, stations[0].distance, 'Potsdamer Platz should have a distance of 30');
     });
 

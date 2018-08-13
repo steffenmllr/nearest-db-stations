@@ -24,72 +24,7 @@ const longitude = 13.375944;
 
 const stations = nearestStations(latitude, longitude);
 
-// [{
-//     id: '8011155',
-//     address: {
-//         city: 'Berlin',
-//         zipcode: '10179',
-//         street: 'Dircksenstr. 2'
-//     },
-//     location: {
-//         type: 'location',
-//         latitude: 52.521481,
-//         longitude: 13.410961
-//     },
-//     distance: 256
-// }, {
-//     id: '8089019',
-//     address: {
-//         city: 'Berlin',
-//         zipcode: '10179',
-//         street: 'Brückenstraße/Alexanderstraße'
-//     },
-//     location: {
-//         type: 'location',
-//         latitude: 52.51427,
-//         longitude: 13.419347
-//     },
-//     distance: 1073
-// }, {
-//     id: '8089017',
-//     address: {
-//         city: 'Berlin',
-//         zipcode: '10178',
-//         street: 'Am Zwirngraben'
-//     },
-//     location: {
-//         type: 'location',
-//         latitude: 52.522622,
-//         longitude: 13.402364
-//     },
-//     distance: 1209
-// }, {
-//     id: '8089027',
-//     address: {
-//         city: 'Berlin',
-//         zipcode: '10117',
-//         street: 'Oranienburger Str. 35'
-//     },
-//     location: {
-//         type: 'location',
-//         latitude: 52.52521,
-//         longitude: 13.393052
-//     },
-//     distance: 2271
-// }, {
-//     id: '8010255',
-//     address: {
-//         city: 'Berlin',
-//         zipcode: '10243',
-//         street: 'Koppenstr. 3'
-//     },
-//     location: {
-//         type: 'location',
-//         latitude: 52.5104881,
-//         longitude: 13.4346807
-//     },
-//     distance: 2689
-// }]
+// Output as in db-stations
 
 ```
 
