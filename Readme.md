@@ -2,7 +2,8 @@
 
 Searches the nearest **stations of [Deutsche Bahn](http://db.de/)**, using [geokdbush](https://github.com/mourner/geokdbush). Data taken from the excellent [db-stations](https://github.com/derhuerst/db-stations) package.
 
-
+[![build status](https://img.shields.io/travis/steffenmllr/nearest-db-stations.svg)](https://travis-ci.org/steffenmllr/nearest-db-stations)
+[![npm version](https://img.shields.io/npm/v/nearest-db-stations.svg)](https://www.npmjs.com/package/nearest-db-stations)
 [![npm version](https://img.shields.io/npm/v/nearest-db-stations.svg)](https://www.npmjs.com/package/nearest-db-stations)
 ![ISC-licensed](https://img.shields.io/github/license/steffenmllr/nearest-db-stations.svg)
 
